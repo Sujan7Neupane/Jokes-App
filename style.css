@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .main-title {
+    border-bottom: 1px solid #fff;
+    padding: 0.5rem;
+  }
+  #main-sec {
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 255, 0.464),
+      rgba(255, 0, 255, 0.689)
+    );
+    color: #fff;
+    padding: 1rem;
+  }
+
+  .wrapper-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .joke-element,
+  .joke-answer {
+    margin-bottom: 1rem;
+  }
